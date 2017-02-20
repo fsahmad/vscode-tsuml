@@ -1,4 +1,6 @@
 language: node_js
+node:
+  - "6"
 sudo: false
 
 os:
@@ -16,5 +18,5 @@ install:
   - npm run vscode:prepublish
 
 script:
-  - npm lint
+  - npm run lint
   - npm test --silent
