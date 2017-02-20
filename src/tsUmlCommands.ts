@@ -59,7 +59,7 @@ export class TsUmlCommands {
                 });
             },
             (reason) => {
-                console.log(JSON.stringify(reason, null, 4));
+                vscode.window.showErrorMessage("Error: " + JSON.stringify(reason, null, 4));
             });
     }
 }
