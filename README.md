@@ -1,5 +1,7 @@
 # vscode-tsuml README
 
+[![Build Status](https://travis-ci.org/fsahmad/vscode-tsuml.svg?branch=master)](https://travis-ci.org/fsahmad/vscode-tsuml)
+
 This is the README for your extension "vscode-tsuml". After writing up a brief description, we recommend including the following sections.
 
 ## Features
