@@ -41,3 +41,6 @@ out
 
 # OSX
 .DS_Store
+
+# VS Code test output
+.vscode-test
